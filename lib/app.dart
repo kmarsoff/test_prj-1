@@ -14,8 +14,8 @@ class App extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         routes: {
           Screen0.routeName: (context) => const Screen0(),
-          Screen1.routeName: (context) => const Screen1(),
-          Screen2.routeName: (context) => const Screen2(),
+          Screen1.routeName: (context) =>  Screen1(),
+          Screen2.routeName: (context) =>  Screen2(),
         },
         pageRouteBuilder: _pageRouteBuilder,
       );
